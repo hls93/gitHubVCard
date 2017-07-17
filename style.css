@@ -1,21 +1,38 @@
 body{
-  font-family: serif}
+  background: black;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  border: solid black;
+  width: 80%;
+  margin-left: 160px;
+}
 
 header{
   text-align: center;
-  background: black;
+  background: #181818;
   color: white;
   margin-bottom: none;
 }
 
 h1{
+  font-family: serif;
+  text-align: center;
   font-size: 80px;
-  font-weight: lighter;
-  padding: 30px;
+  font-weight: 100;
+}
+
+h3{
+  font-family:
 }
 
 .bottom{
-
+  height: 300px;
+  padding-top: 50px;
+  background-color: white;
+  padding-bottom: 50px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -31,7 +48,18 @@ h1{
 }
 
 .left ul{
+  font-size: 16px;
+  text-align: left;
   border-right: 2px solid grey;
+}
+
+ul{
+  font-family: serif;
+  list-style: none;
+}
+
+li{
+  color: grey;
 }
 
 .right{
@@ -45,22 +73,23 @@ h1{
   font-size: 30px;
 }
 
-ul{
-  list-style: none;
-}
-li{
-  
-}
-li span{
-  color: light blue;
+.descript{
+  padding-right: 10px;
+  color: #66FFCC;
   }
 }
 
 .image{
+  padding-left: 80px;
   width: 20%;
 }
 img{
   padding-left: 10px;
-  width: 180px;
+  width: 160px;
   border-radius: 80px;
+}
+
+p{
+  font-family: serif;
+  color: grey;
 }

@@ -13,18 +13,20 @@ function displayCharacters() {
   let data = JSON.parse(this.responseText);
   let list = '';
   console.log(data);
-  picture.innerHTML = `<header>
+  picture.innerHTML = `
+      <div class="container">
+        <header>
           <h1>Helen Shaw</h1>
         </header>
         <div class="bottom">
           <div class="left">
             <h3>The Basics</h3>
             <ul class="myList">
-              <li><span>name:</span> ${data.name}</li>
-              <li><span>Github Url:</span> ${data.login}</li>
-              <li><span>email:</span> ${data.email}</li>
-              <li><span>company:</span> ${data.company}</li>
-              <li><span>website:</span> ${data.type}
+              <li><span class= "descript">name:</span> ${data.name}</li>
+              <li><span class="descript">Github Url</span> ${data.login}</li>
+              <li><span class="descript">email:</span> ${data.email}</li>
+              <li><span class="descript">company:</span> ${data.company}</li>
+              <li><span class="descript">website:</span> ${data.type}
               </ul>
             </div>
               <div class="right">
@@ -34,5 +36,6 @@ function displayCharacters() {
                 <div class="image">
                 <img src="${data.avatar_url}" alt="">
                 </div>
+              </div>
               </div>`;
 }
