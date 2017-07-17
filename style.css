@@ -74,8 +74,9 @@ li{
 }
 
 .descript{
+  font-weight: lighter;
   padding-right: 10px;
-  color: #66FFCC;
+  color: #669999;
   }
 }
 
@@ -84,6 +85,7 @@ li{
   width: 20%;
 }
 img{
+  align-items: center;
   padding-left: 10px;
   width: 160px;
   border-radius: 80px;

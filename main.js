@@ -22,11 +22,11 @@ function displayCharacters() {
           <div class="left">
             <h3>The Basics</h3>
             <ul class="myList">
-              <li><span class= "descript">name:</span> ${data.name}</li>
+              <li><span class= "descript">Name:</span> ${data.name}</li>
               <li><span class="descript">Github Url</span> ${data.login}</li>
-              <li><span class="descript">email:</span> ${data.email}</li>
-              <li><span class="descript">company:</span> ${data.company}</li>
-              <li><span class="descript">website:</span> ${data.type}
+              <li><span class="descript">Email:</span> ${data.email}</li>
+              <li><span class="descript">Company:</span> ${data.company}</li>
+              <li><span class="descript">Website:</span> ${data.type}
               </ul>
             </div>
               <div class="right">
